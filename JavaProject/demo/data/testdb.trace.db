@@ -1,0 +1,6 @@
+2024-03-10 17:07:46.389370-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MODEL" not found (this database is empty); SQL statement:
+select cm1_0.model_id,cm1_0.color,cm1_0.make,cm1_0.model,cm1_0."car year" from model cm1_0 where cm1_0.model_id=? [42104-224]
+2024-03-10 17:11:35.839497-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MODEL" not found (this database is empty); SQL statement:
+select cm1_0.model_id,cm1_0.color,cm1_0.make,cm1_0.model,cm1_0."car year" from model cm1_0 where cm1_0.model_id=? [42104-224]
